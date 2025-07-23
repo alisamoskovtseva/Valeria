@@ -1,12 +1,9 @@
 const CACHE_NAME = 'kalmykia-site-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/history.html',
-  '/attractions.html',
-  '/contacts.html',
-  '/style.css',
-  '/send_feedback.php',
+  '.index.html',
+  '.history.html',
+  '.attractions.html',
+  '.contacts.html',
   'icons/icon-512x512.png',
   '/khurul2.jpg',
   '/pagoda.jpg',
