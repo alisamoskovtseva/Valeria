@@ -7,7 +7,7 @@ const urlsToCache = [
   '/contacts.html',
   '/style.css',
   '/send_feedback.php',
-  '/icon-512x512.png',
+  'icons/icon-512x512.png',
   '/khurul2.jpg',
   '/pagoda.jpg',
   '/topol.jpg',
