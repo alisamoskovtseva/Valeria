@@ -3,7 +3,7 @@
   "short_name": "Калмыкия",
   "description": "Информация о культуре и достопримечательностях Калмыкии",
   "start_url": "Valeria/index.html",
-  "scope": "/Valeria/"
+  "scope": "/Valeria/",
   "display": "standalone",
   "background_color": "#f9f5e9",
   "theme_color": "#d4af37",
