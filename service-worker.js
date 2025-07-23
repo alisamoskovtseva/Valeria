@@ -1,5 +1,6 @@
 const CACHE_NAME = 'kalmykia-site-v1';
 const urlsToCache = [
+
   './index.html',
   './history.html',
   './attractions.html',
