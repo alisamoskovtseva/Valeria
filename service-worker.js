@@ -1,22 +1,22 @@
 const CACHE_NAME = 'kalmykia-site-v1';
 const urlsToCache = [
-  '.index.html',
-  '.history.html',
-  '.attractions.html',
-  '.contacts.html',
+  './index.html',
+  './history.html',
+  './attractions.html',
+  './contacts.html',
   
-  '.icons/icon-512x512.png',
-  '.khurul2.jpg',
-  '.pagoda.jpg',
-  '.topol.jpg',
-  '.manych.jpg',
-  '.pink.jpg',
-  '.khurul.jpg',
-  '.IZO.jpg',
-  '.dance.jpg',
-  '.music.jpg',
-  '.lit.jpg',
-  '.step.jpg'
+  './icons/icon-512x512.png',
+  './khurul2.jpg',
+  './pagoda.jpg',
+  './topol.jpg',
+  './manych.jpg',
+  './pink.jpg',
+  './khurul.jpg',
+  './IZO.jpg',
+  './dance.jpg',
+  './music.jpg',
+  './lit.jpg',
+  './step.jpg'
 ];
 
 self.addEventListener('install', event => {
