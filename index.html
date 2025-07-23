@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Калмыкия — Страна степей</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#d4af37">
+</head>
+<body>
+  <header>
+    <h1>Калмыкия</h1>
+    <p>Земля золотых степей и буддизма</p>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="history.html">Культура</a>
+      <a href="attractions.html">Достопримечательности</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="step.jpg" alt="Калмыцкие степи">
+    </section>
+
+    <section class="about">
+      <h2>О Калмыкии</h2>
+      <p>Калмыкия – уникальный уголок России.<p>
+
+<p>Добро пожаловать в Калмыкию – единственный регион Европы, где исповедуют буддизм и бережно хранят традиции кочевой культуры. Это край бескрайних степей, тёплого гостеприимства и удивительных природных красот.<p>
+
+<p>Чем славится Калмыкия?<p>
+
+<p>Элиста – столица с особым колоритом, где современность гармонирует с древними обычаями. Здесь находится крупнейший в Европе буддийский храм – Золотая обитель Будды Шакьямуни.<p>
+
+<p>Заповедник "Чёрные земли" – царство степных антилоп-сайгаков и редких птиц, место силы и первозданной природы.<p>
+
+<p>Наследие Великого шёлкового пути – древние памятники и живые традиции калмыцкого народа.<p>
+
+<p>Попробуйте ароматный калмыцкий чай с бараниной, услышьте завораживающее горловое пение и ощутите дух свободы степного края. Калмыкия очарует вас своей самобытностью!<p>
+
+<p>Откройте для себя этот удивительный край – добро пожаловать в Калмыкию!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Сайт о Калмыкии</p>
+  </footer>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/service-worker.js')
+        .then(registration => {
+          console.log('ServiceWorker registration successful');
+        })
+        .catch(err => {
+          console.log('ServiceWorker registration failed: ', err);
+        });
+    });
+  }
+</script>
+</body>
+</html>

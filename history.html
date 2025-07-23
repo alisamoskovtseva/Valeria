@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Культура Калмыкии</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#d4af37">
+</head>
+<body>
+  <header>
+    <h1>Культура</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="history.html">Культура</a>
+      <a href="attractions.html">Достопримечательности</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+  </header>
+  
+  
+  <main>
+    <section class="culture">
+      <h2>Буддизм в Калмыкии</h2>
+      <p>Калмыки — единственный народ в Европе, исповедующий буддизм. Главный храм — «Золотая обитель Будды Шакьямуни» в Элисте.</p>
+      <img src="khurul.jpg" alt="Хурул">
+    </section>
+  </main>
+  
+  <main>
+    <section class="culture">
+      <h2>Культура Калмыкии</h2
+	  
+      <p>Культура Калмыкии богата и разнообразна, отражает уникальные традиции калмыцкого народа. 
+	  Она включает в себя множество форм, таких как изобразительное искусство, музыка, танцы, литература, театр и декоративно-прикладное искусство. </p>
+      
+	   <p>Изобразительное искусство развивается в традициях народной живописи и скульптуры, а также в современных формах.
+	  Художники часто черпают вдохновение из буддийской и степной тематики, создавая картины, которые изображают природу, кочевую жизнь и религиозные мотивы.<p>
+	  <img src="IZO.jpg" alt="ИЗО">
+	  
+	  <p>Танцы играют важную роль в культурной жизни Калмыкии. Традиционные калмыцкие танцы, такие как «Тавшур» и «Ишкимдк», исполняются на национальных праздниках и фестивалях.<p>
+	  <img src="dance.jpg" alt="Танцы">
+	  
+	  <p>Музыка Калмыкии включает в себя традиционные народные песни и инструментальную музыку, исполняемую на таких инструментах, как домбра, моринхуур и ятага.
+	  Традиционные песни часто связаны с эпическими повествованиями и историческими событиями.<p>
+	  <img src="music.jpg" alt="Музыка">
+	  
+	  <p>Литература Калмыкии представлена как устными, так и письменными произведениями. Эпические сказания и легенды передавались из поколения в поколение в устной форме.<p>
+	  <img src="lit.jpg" alt="Литература">
+	  
+	  
+	  
+    </section>
+  </main> 
+
+  <footer>
+    <p>© 2025 Сайт о Калмыкии</p>
+  </footer>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/service-worker.js')
+        .then(registration => {
+          console.log('ServiceWorker registration successful');
+        })
+        .catch(err => {
+          console.log('ServiceWorker registration failed: ', err);
+        });
+    });
+  }
+</script>
+</body>
+</html>
