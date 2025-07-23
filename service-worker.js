@@ -16,7 +16,7 @@ const urlsToCache = [
   './dance.jpg',
   './music.jpg',
   './lit.jpg',
-  './step.jpg'
+  './step.jpg',
 ];
 
 self.addEventListener('install', event => {
